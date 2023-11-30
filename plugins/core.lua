@@ -2,6 +2,11 @@ return {
   -- customize alpha options
   {
     "goolord/alpha-nvim",
+    "christoomey/vim-tmux-navigator",
+     { import = "astrocommunity.colorscheme.catppuccin" },
+     { import = "astrocommunity.pack.tailwindcss" },
+     { import = "astrocommunity.pack.typescript" },
+     { import = "astrocommunity.pack.html-css" },
     opts = function(_, opts)
       -- customize the dashboard header
       opts.section.header.val = {
