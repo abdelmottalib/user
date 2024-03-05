@@ -4,6 +4,7 @@ return {
     "goolord/alpha-nvim",
     "christoomey/vim-tmux-navigator",
      { import = "astrocommunity.colorscheme.catppuccin" },
+     { import = "astrocommunity.pack.java" },
      { import = "astrocommunity.pack.tailwindcss" },
      { import = "astrocommunity.pack.typescript" },
      { import = "astrocommunity.pack.html-css" },
